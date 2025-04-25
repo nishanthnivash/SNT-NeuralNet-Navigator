@@ -18,7 +18,7 @@ const AboutUsPage: React.FC = () => {
       <h2 className="text-xl font-semibold text-primary mb-4">Created By</h2>
        <div className="flex justify-center mb-4">
           <Image
-            src="https://picsum.photos/250/250" // Replace with your actual image URL
+            src="https://res.cloudinary.com/dlxhuct7v/image/upload/v1745565080/Untitled_Project_1_jeg70l.jpg" // Replace with your actual image URL
             alt="Creator's Photo"
             width={200}
             height={200}
