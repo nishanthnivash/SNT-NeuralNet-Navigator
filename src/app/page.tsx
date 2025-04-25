@@ -72,6 +72,51 @@ export default function Home() {
                 Start Learning
               </Link>
             </div>
+             {/* Add more featured modules here */}
+             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+              <h3 className="text-lg font-semibold text-foreground mb-2">
+                Convolutional Neural Networks (CNNs)
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Learn about the architecture and applications of CNNs.
+              </p>
+              <Link
+                href="/module/convolutional-neural-networks"
+                className="inline-block mt-4 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-accent hover:text-accent-foreground"
+              >
+                Start Learning
+              </Link>
+            </div>
+             {/* Add more featured modules here */}
+             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+              <h3 className="text-lg font-semibold text-foreground mb-2">
+                Recurrent Neural Networks (RNNs)
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Understand the principles and uses of RNNs for sequential data.
+              </p>
+              <Link
+                href="/module/recurrent-neural-networks"
+                className="inline-block mt-4 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-accent hover:text-accent-foreground"
+              >
+                Start Learning
+              </Link>
+            </div>
+             {/* Add more featured modules here */}
+             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+              <h3 className="text-lg font-semibold text-foreground mb-2">
+                Transformers and Attention Mechanisms
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                Dive into the world of transformers and attention mechanisms.
+              </p>
+              <Link
+                href="/module/transformers"
+                className="inline-block mt-4 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-accent hover:text-accent-foreground"
+              >
+                Start Learning
+              </Link>
+            </div>
           </div>
         </section>
 
