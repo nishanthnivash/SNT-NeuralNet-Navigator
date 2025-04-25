@@ -16,15 +16,13 @@ const AboutUsPage: React.FC = () => {
         beginners to experienced professionals.
       </p>
       <h2 className="text-xl font-semibold text-primary mb-4">Created By</h2>
-       <div className="flex justify-center mb-4">
-          <Image
+       <Image
             src="https://res.cloudinary.com/dlxhuct7v/image/upload/v1745565080/Untitled_Project_1_jeg70l.jpg" // Replace with your actual image URL
             alt="Creator's Photo"
             width={200}
             height={200}
             className="rounded-md"
           />
-        </div>
       <p className="text-md text-muted-foreground mb-4">
         I am an aspiring AI/ML Engineer with a passion for creating intelligent and user-friendly applications. This platform, SNT NeuralNet Navigator, is a personal project developed during my Bachelor's of Technology in Artificial Intelligence & Data Science at Mahendra Engineering College to make learning about neural networks more accessible. It reflects my skills in AI/ML, web development, and my commitment to building engaging educational tools.
       </p>
