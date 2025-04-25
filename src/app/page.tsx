@@ -17,6 +17,9 @@ export default function Home() {
             </p>
           </div>
           <div className="space-x-4">
+            <Link href="/about" className="text-primary hover:text-accent">
+              About Us
+            </Link>
             <Link href="/login" className="text-primary hover:text-accent">
               Login
             </Link>
