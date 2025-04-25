@@ -7,14 +7,23 @@ export default function Home() {
       {/* Header */}
       <header className="bg-background p-6 shadow-md">
         <div className="container mx-auto flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold text-primary">
-              SNT NeuralNet Navigator
-            </h1>
-            <p className="text-sm text-muted-foreground">
-              Explore the fascinating world of Neural Networks with our interactive
-              learning modules.
-            </p>
+          <div className="flex items-center">
+            <Image
+              src="https://res.cloudinary.com/dlxhuct7v/image/upload/v1745580668/ChatGPT_Image_Apr_22_2025_05_51_53_PM_acioke.png"
+              alt="SNT NeuralNet Navigator Logo"
+              width={50}
+              height={50}
+              className="rounded-full mr-4"
+            />
+            <div>
+              <h1 className="text-2xl font-bold text-primary">
+                SNT NeuralNet Navigator
+              </h1>
+              <p className="text-sm text-muted-foreground">
+                Explore the fascinating world of Neural Networks with our
+                interactive learning modules.
+              </p>
+            </div>
           </div>
           <div className="space-x-4">
             <Link href="/about" className="text-primary hover:text-accent">
@@ -51,7 +60,7 @@ export default function Home() {
                 applications.
               </p>
               <Link
-                href="/module/introduction"  // Modified href here
+                href="/module/introduction" // Modified href here
                 className="inline-block mt-4 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-accent hover:text-accent-foreground"
               >
                 Start Learning
@@ -72,8 +81,8 @@ export default function Home() {
                 Start Learning
               </Link>
             </div>
-             {/* Add more featured modules here */}
-             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+            {/* Add more featured modules here */}
+            <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
               <h3 className="text-lg font-semibold text-foreground mb-2">
                 Convolutional Neural Networks (CNNs)
               </h3>
@@ -87,8 +96,8 @@ export default function Home() {
                 Start Learning
               </Link>
             </div>
-             {/* Add more featured modules here */}
-             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+            {/* Add more featured modules here */}
+            <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
               <h3 className="text-lg font-semibold text-foreground mb-2">
                 Recurrent Neural Networks (RNNs)
               </h3>
@@ -102,8 +111,8 @@ export default function Home() {
                 Start Learning
               </Link>
             </div>
-             {/* Add more featured modules here */}
-             <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
+            {/* Add more featured modules here */}
+            <div className="bg-card rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
               <h3 className="text-lg font-semibold text-foreground mb-2">
                 Transformers and Attention Mechanisms
               </h3>
