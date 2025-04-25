@@ -1,8 +1,15 @@
 "use client";
 import React from 'react';
 import './DeepLearningFundamentalsModule.css';
+import { useRouter } from 'next/navigation';
 
 const DeepLearningFundamentalsModule: React.FC = (): JSX.Element => {
+  const router = useRouter();
+
+  const handleCompleteModule = () => {
+    router.push('/module/deeplearning/congratulations');
+  };
+
   return (
     <div className="module-container">
       <h1>Deep Learning Fundamentals Module</h1>
@@ -157,7 +164,7 @@ const DeepLearningFundamentalsModule: React.FC = (): JSX.Element => {
 
         <div className="navigation-buttons">
           <button onClick={() => window.location.href='#lesson4'}>Previous Lesson</button>
-          <button>Complete Module</button>
+          <button onClick={handleCompleteModule}>Complete Module</button>
         </div>
       </section>
     </div>
