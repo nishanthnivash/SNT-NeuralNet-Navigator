@@ -16,8 +16,7 @@ const AboutUsPage: React.FC = () => {
       </p>
       <h2 className="text-xl font-semibold text-primary mb-4">Created By</h2>
       <p className="text-md text-muted-foreground mb-4">
-        We are a team of passionate educators and AI experts committed to
-        creating engaging and informative learning experiences.
+        I am an aspiring AI/ML Engineer with a passion for creating intelligent and user-friendly applications. This platform, SNT NeuralNet Navigator, is a personal project developed during my Bachelor's of Technology in Artificial Intelligence & Data Science at Mahendra Engineering College to make learning about neural networks more accessible. It reflects my skills in AI/ML, web development, and my commitment to building engaging educational tools.
       </p>
       <h2 className="text-xl font-semibold text-primary mb-4">Contact Us</h2>
       <p className="text-md text-muted-foreground">
