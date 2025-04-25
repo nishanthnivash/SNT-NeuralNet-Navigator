@@ -30,7 +30,7 @@ const AboutUsPage: React.FC = () => {
       </p>
       <h2 className="text-xl font-semibold text-primary mb-4">Contact Us</h2>
       <p className="text-md text-muted-foreground">
-        Email: <a href="mailto:info@example.com">info@example.com</a>
+        Email: <a href="mailto:sritamilnishanth@gmail.com">sritamilnishanth@gmail.com</a>
       </p>
     </div>
   );
