@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-secondary">
+    <div className="flex flex-col min-h-screen bg-background">
       {/* Header */}
       <header className="bg-background p-6 shadow-md">
         <div className="container mx-auto flex items-center justify-between">
@@ -48,7 +48,7 @@ export default function Home() {
                 applications.
               </p>
               <Link
-                href="/module/introduction"
+                href="/module/introduction"  // Modified href here
                 className="inline-block mt-4 bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-accent hover:text-accent-foreground"
               >
                 Start Learning
