@@ -18,11 +18,11 @@ const AboutUsPage: React.FC = () => {
       <h2 className="text-xl font-semibold text-primary mb-4">Created By</h2>
        <div className="flex justify-center mb-4">
           <Image
-            src="https://picsum.photos/200/200" // Replace with your actual image URL
+            src="https://picsum.photos/250/250" // Replace with your actual image URL
             alt="Creator's Photo"
-            width={150}
-            height={150}
-            className="rounded-full"
+            width={200}
+            height={200}
+            className="rounded-md"
           />
         </div>
       <p className="text-md text-muted-foreground mb-4">
