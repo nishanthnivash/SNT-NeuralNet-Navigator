@@ -14,7 +14,7 @@ const AboutUsPage: React.FC = () => {
         Our mission is to make complex topics accessible to everyone, from
         beginners to experienced professionals.
       </p>
-      <h2 className="text-xl font-semibold text-primary mb-4">Our Team</h2>
+      <h2 className="text-xl font-semibold text-primary mb-4">Created By</h2>
       <p className="text-md text-muted-foreground mb-4">
         We are a team of passionate educators and AI experts committed to
         creating engaging and informative learning experiences.
