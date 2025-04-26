@@ -1,0 +1,329 @@
+[debug] [2025-04-26T06:56:38.680Z] ----------------------------------------------------------------------
+[debug] [2025-04-26T06:56:38.683Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nishanth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-26T06:56:38.683Z] CLI Version:   14.2.1
+[debug] [2025-04-26T06:56:38.683Z] Platform:      win32
+[debug] [2025-04-26T06:56:38.683Z] Node Version:  v20.18.0
+[debug] [2025-04-26T06:56:38.683Z] Time:          Sat Apr 26 2025 12:26:38 GMT+0530 (India Standard Time)
+[debug] [2025-04-26T06:56:38.684Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-26T06:56:38.948Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-26T06:56:38.949Z] > authorizing via signed-in user (sritamilnishanth@gmail.com)
+[info] i  emulators: Starting emulators: dataconnect {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: dataconnect"}}
+[debug] [2025-04-26T06:56:38.963Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-26T06:56:38.963Z] [dataconnect.postgres] postgres server for dataconnect only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-26T06:56:38.963Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"dataconnect":[{"address":"127.0.0.1","family":"IPv4","port":9399},{"address":"::1","family":"IPv6","port":9399}],"dataconnect.postgres":[{"address":"127.0.0.1","family":"IPv4","port":5432}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-26T06:56:38.969Z] [hub] writing locator at C:\Users\Nishanth\AppData\Local\Temp\hub-snt-neuralnet-navigator.json
+[debug] [2025-04-26T06:56:39.098Z] I0426 12:26:39.077673   18764 control.go:73] [/emulator/download 5024] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.077673   18764 control.go:73] [/emulator/download 5024] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-04-26T06:56:39.099Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-04-26T06:56:39.100Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"dataconnect"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-04-26T06:56:39.100Z] Starting Data Connect Emulator with command {"binary":"C:\\Users\\Nishanth\\.cache\\firebase\\emulators\\dataconnect-emulator-2.3.1.exe","args":["--logtostderr","-v=2","dev","--listen=127.0.0.1:9399,[::1]:9399","--config_dir=C:\\Users\\Nishanth\\Downloads\\download\\dataconnect","--enable_output_schema_extensions=true","--enable_output_generated_sdk=true"],"optionalArgs":["listen","config_dir","enable_output_schema_extensions","enable_output_generated_sdk"],"joinArgs":true,"shell":false,"port":9399} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Starting Data Connect Emulator with command {\"binary\":\"C:\\\\Users\\\\Nishanth\\\\.cache\\\\firebase\\\\emulators\\\\dataconnect-emulator-2.3.1.exe\",\"args\":[\"--logtostderr\",\"-v=2\",\"dev\",\"--listen=127.0.0.1:9399,[::1]:9399\",\"--config_dir=C:\\\\Users\\\\Nishanth\\\\Downloads\\\\download\\\\dataconnect\",\"--enable_output_schema_extensions=true\",\"--enable_output_generated_sdk=true\"],\"optionalArgs\":[\"listen\",\"config_dir\",\"enable_output_schema_extensions\",\"enable_output_generated_sdk\"],\"joinArgs\":true,\"shell\":false,\"port\":9399}"}}
+[info] i  dataconnect: Data Connect Emulator logging to dataconnect-debug.log {"metadata":{"emulator":{"name":"dataconnect"},"message":"Data Connect Emulator logging to \u001b[1mdataconnect-debug.log\u001b[22m"}}
+[info] i  dataconnect: Started up Postgres server, listening on {"address":"127.0.0.1","family":"IPv4","port":5432} {"metadata":{"emulator":{"name":"dataconnect"},"message":"Started up Postgres server, listening on {\"address\":\"127.0.0.1\",\"family\":\"IPv4\",\"port\":5432}"}}
+[debug] [2025-04-26T06:56:39.148Z] [Data Connect] Connecting to postgres://127.0.0.1:5432/fdcdb?sslmode=disable}...
+[debug] [2025-04-26T06:56:39.149Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-04-26T06:56:39.150Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5432/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"download","maxOpenConnections":1}
+[debug] [2025-04-26T06:56:39.152Z] I0426 12:26:39.149978    3540 load.go:37] Reloading schema and connectors...
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.149978    3540 load.go:37] Reloading schema and connectors...\n"}}
+[debug] [2025-04-26T06:56:39.154Z] *** [apiv2] error from fetch(http://127.0.0.1:9399/emulator/configure, {"headers":{},"method":"POST","body":"{\"connectionString\":\"postgres://127.0.0.1:5432/fdcdb?sslmode=disable\",\"database\":\"fdcdb\",\"serviceId\":\"download\",\"maxOpenConnections\":1}"}): FetchError: request to http://127.0.0.1:9399/emulator/configure failed, reason: connect ECONNREFUSED 127.0.0.1:9399
+[debug] [2025-04-26T06:56:39.154Z] [Data Connect] Retrying connectToPostgress call (1 of 3 attempts): FirebaseError: Data Connect emulator: undefined
+[debug] [2025-04-26T06:56:39.178Z] I0426 12:26:39.177408    3540 control.go:73] [/emulator/download ff9c] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.177408    3540 control.go:73] [/emulator/download ff9c] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-04-26T06:56:39.206Z] I0426 12:26:39.205827    3540 collector.go:107] schema extensions wrote into "C:\\Users\\Nishanth\\Downloads\\download\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71117B] 
+I0426 12:26:39.205827    3540 load.go:115] Finished reloading
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.205827    3540 collector.go:107] schema extensions wrote into \"C:\\\\Users\\\\Nishanth\\\\Downloads\\\\download\\\\dataconnect\\\\.dataconnect\\\\schema\"\nGenerated sources: prelude.gql [71117B] \nI0426 12:26:39.205827    3540 load.go:115] Finished reloading\n"}}
+[debug] [2025-04-26T06:56:39.208Z] I0426 12:26:39.206919    3540 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.206919    3540 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399\n"}}
+[debug] [2025-04-26T06:56:39.209Z] I0426 12:26:39.208432    3540 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:39.208432    3540 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399\n"}}
+[debug] [2025-04-26T06:56:41.157Z] [Data Connect] Connecting to postgres://127.0.0.1:5432/fdcdb?sslmode=disable}...
+[debug] [2025-04-26T06:56:41.158Z] >>> [apiv2][query] POST http://127.0.0.1:9399/emulator/configure [none]
+[debug] [2025-04-26T06:56:41.158Z] >>> [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {"connectionString":"postgres://127.0.0.1:5432/fdcdb?sslmode=disable","database":"fdcdb","serviceId":"download","maxOpenConnections":1}
+[debug] [2025-04-26T06:56:41.180Z] Frontend message 
+[debug] [2025-04-26T06:56:41.182Z] Backend message AuthenticationResponse
+[debug] [2025-04-26T06:56:41.184Z] Backend message ParameterStatus
+[debug] [2025-04-26T06:56:41.185Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:41.185Z] Frontend message Query
+[debug] [2025-04-26T06:56:46.447Z] Q   ; 
+[debug] [2025-04-26T06:56:46.447Z] Backend message EmptyQuery
+[debug] [2025-04-26T06:56:46.448Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.461Z] Frontend message Query
+[debug] [2025-04-26T06:56:46.466Z] Q   lSELECT setting FROM pg_settings WHERE name IN ('server_version_num', 'crdb_version') ORDER BY name DESC 
+[debug] [2025-04-26T06:56:46.466Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.467Z] Backend message DataRow
+[debug] [2025-04-26T06:56:46.468Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.468Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.469Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.472Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-04-26T06:56:46.472Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.472Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.473Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.474Z] D   S 
+[debug] [2025-04-26T06:56:46.474Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.474Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.474Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.475Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.476Z] S   
+[debug] [2025-04-26T06:56:46.476Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.477Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.480Z] B           public  
+[debug] [2025-04-26T06:56:46.480Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.480Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.480Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.483Z] E   	     
+[debug] [2025-04-26T06:56:46.483Z] Backend message DataRow
+[debug] [2025-04-26T06:56:46.484Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.484Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.484Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.486Z] S   
+[debug] [2025-04-26T06:56:46.486Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.486Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.488Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-04-26T06:56:46.488Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.488Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.489Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.490Z] D   S 
+[debug] [2025-04-26T06:56:46.490Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.490Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.490Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.490Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.492Z] S   
+[debug] [2025-04-26T06:56:46.492Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.493Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.497Z] B           public  
+[debug] [2025-04-26T06:56:46.498Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.498Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.498Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.499Z] E   	     
+[debug] [2025-04-26T06:56:46.500Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.500Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.500Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.502Z] S   
+[debug] [2025-04-26T06:56:46.502Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.502Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.505Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-04-26T06:56:46.506Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.506Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.506Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.507Z] D   S 
+[debug] [2025-04-26T06:56:46.508Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.508Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.508Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.508Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.510Z] S   
+[debug] [2025-04-26T06:56:46.510Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.510Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.521Z] B           public  
+[debug] [2025-04-26T06:56:46.522Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.522Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.522Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.526Z] E   	     
+[debug] [2025-04-26T06:56:46.527Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.527Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.527Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.529Z] S   
+[debug] [2025-04-26T06:56:46.530Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.531Z] Frontend message Query
+[debug] [2025-04-26T06:56:46.537Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-04-26T06:56:46.537Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.537Z] Backend message DataRow
+[debug] [2025-04-26T06:56:46.537Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.537Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.538Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.540Z] P   � 
+SELECT
+	nspname AS schema_name,
+	pg_catalog.obj_description(oid) AS comment
+FROM
+    pg_catalog.pg_namespace
+WHERE
+    nspname = $1
+ORDER BY
+    nspname   
+[debug] [2025-04-26T06:56:46.540Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.540Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.540Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.542Z] D   S 
+[debug] [2025-04-26T06:56:46.542Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.543Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.543Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.543Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.545Z] S   
+[debug] [2025-04-26T06:56:46.545Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.546Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.549Z] B           public  
+[debug] [2025-04-26T06:56:46.549Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.550Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.550Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.552Z] E   	     
+[debug] [2025-04-26T06:56:46.552Z] Backend message DataRow
+[debug] [2025-04-26T06:56:46.552Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.553Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.553Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.555Z] S   
+[debug] [2025-04-26T06:56:46.555Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.555Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.557Z] P  / 
+SELECT
+	n.nspname AS schema_name,
+	e.enumtypid AS enum_id,
+	t.typname AS enum_name,
+	e.enumlabel AS enum_value
+FROM
+	pg_enum e
+	JOIN pg_type t ON e.enumtypid = t.oid
+	JOIN pg_namespace n ON t.typnamespace = n.oid
+WHERE
+    n.nspname IN ($1)
+ORDER BY
+    n.nspname, e.enumtypid, e.enumsortorder
+   
+[debug] [2025-04-26T06:56:46.558Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.559Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.559Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.561Z] D   S 
+[debug] [2025-04-26T06:56:46.561Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.561Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.561Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.561Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.563Z] S   
+[debug] [2025-04-26T06:56:46.563Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.564Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.566Z] B           public  
+[debug] [2025-04-26T06:56:46.566Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.567Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.567Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.568Z] E   	     
+[debug] [2025-04-26T06:56:46.568Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.568Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.569Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.570Z] S   
+[debug] [2025-04-26T06:56:46.570Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.571Z] Frontend message Parse
+[debug] [2025-04-26T06:56:46.573Z] P  0 
+SELECT
+	t3.oid,
+	t1.table_schema,
+	t1.table_name,
+	pg_catalog.obj_description(t3.oid, 'pg_class') AS comment,
+	t4.partattrs AS partition_attrs,
+	t4.partstrat AS partition_strategy,
+	pg_get_expr(t4.partexprs, t4.partrelid) AS partition_exprs
+FROM
+	INFORMATION_SCHEMA.TABLES AS t1
+	JOIN pg_catalog.pg_namespace AS t2 ON t2.nspname = t1.table_schema
+	JOIN pg_catalog.pg_class AS t3 ON t3.relnamespace = t2.oid AND t3.relname = t1.table_name
+	LEFT JOIN pg_catalog.pg_partitioned_table AS t4 ON t4.partrelid = t3.oid
+	LEFT JOIN pg_depend AS t5 ON t5.classid = 'pg_catalog.pg_class'::regclass::oid AND t5.objid = t3.oid AND t5.deptype = 'e'
+WHERE
+	t1.table_type = 'BASE TABLE'
+	AND NOT COALESCE(t3.relispartition, false)
+	AND t1.table_schema IN ($1)
+	AND t5.objid IS NULL
+ORDER BY
+	t1.table_schema, t1.table_name
+   
+[debug] [2025-04-26T06:56:46.573Z] Backend message ParseComplete
+[debug] [2025-04-26T06:56:46.573Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.573Z] Frontend message Describe
+[debug] [2025-04-26T06:56:46.575Z] D   S 
+[debug] [2025-04-26T06:56:46.575Z] Backend message ParameterDescriptionMessage
+[debug] [2025-04-26T06:56:46.575Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.575Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.575Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.576Z] S   
+[debug] [2025-04-26T06:56:46.577Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.577Z] Frontend message Bind
+[debug] [2025-04-26T06:56:46.581Z] B           public  
+[debug] [2025-04-26T06:56:46.582Z] Backend message BindComplete
+[debug] [2025-04-26T06:56:46.582Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.582Z] Frontend message Execute
+[debug] [2025-04-26T06:56:46.585Z] E   	     
+[debug] [2025-04-26T06:56:46.585Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.585Z] Filtered out a ReadyForQuery.
+[debug] [2025-04-26T06:56:46.585Z] Frontend message Sync
+[debug] [2025-04-26T06:56:46.587Z] S   
+[debug] [2025-04-26T06:56:46.587Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.587Z] Frontend message Query
+[debug] [2025-04-26T06:56:46.589Z] Q   %SELECT extname FROM pg_extension 
+[debug] [2025-04-26T06:56:46.589Z] Backend message RowDescriptionMessage
+[debug] [2025-04-26T06:56:46.589Z] Backend message DataRow
+[debug] [2025-04-26T06:56:46.589Z] Backend message CommandComplete
+[debug] [2025-04-26T06:56:46.590Z] Backend message ReadyForQuery
+[debug] [2025-04-26T06:56:46.601Z] I0426 12:26:46.601296    3540 control.go:73] [/emulator/download dde3] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+ {"metadata":{"emulator":{"name":"dataconnect"},"message":"I0426 12:26:46.601296    3540 control.go:73] [/emulator/download dde3] UpdateResources(): done\nSchema: sources: schema\\schema.gql [2088B] \nConnector \"default\": sources: connector\\mutations.gql [1233B] connector\\queries.gql [1802B] \n"}}
+[debug] [2025-04-26T06:56:46.614Z] <<< [apiv2][status] POST http://127.0.0.1:9399/emulator/configure 200
+[debug] [2025-04-26T06:56:46.614Z] <<< [apiv2][body] POST http://127.0.0.1:9399/emulator/configure {}
+[debug] [2025-04-26T06:56:46.614Z] [Data Connect] Successfully connected to postgres://127.0.0.1:5432/fdcdb?sslmode=disable}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-26T06:56:46.624Z] >>> [apiv2][query] GET http://127.0.0.1:9399/emulator/info [none]
+[debug] [2025-04-26T06:56:46.627Z] <<< [apiv2][status] GET http://127.0.0.1:9399/emulator/info 200
+[debug] [2025-04-26T06:56:46.627Z] <<< [apiv2][body] GET http://127.0.0.1:9399/emulator/info {"version":"","services":[{"serviceId":"download","connectionString":"dbname='fdcdb' host='127.0.0.1' port='5432' sslmode='disable' dbname='fdcdb'"}]}
+[debug] [2025-04-26T06:56:46.633Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────────┬────────────────┐
+│ Emulator     │ Host:Port      │
+├──────────────┼────────────────┤
+│ Data Connect │ 127.0.0.1:9399 │
+└──────────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

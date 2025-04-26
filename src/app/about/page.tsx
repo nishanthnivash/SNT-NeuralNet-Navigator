@@ -8,7 +8,7 @@ const AboutUsPage: React.FC = () => {
         About SNT NeuralNet Navigator
       </h1>
       <p className="text-md text-muted-foreground mb-4">
-        SNT NeuralNet Navigator is an e-learning platform dedicated to
+        SNT NeuralNet Navigator is an EE-learning platform dedicated to
         providing high-quality education on neural networks and deep learning.
       </p>
       <p className="text-md text-muted-foreground mb-4">

@@ -1,0 +1,12 @@
+I0426 12:26:39.149978    3540 load.go:37] Reloading schema and connectors...
+I0426 12:26:39.177408    3540 control.go:73] [/emulator/download ff9c] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0426 12:26:39.205827    3540 collector.go:107] schema extensions wrote into "C:\\Users\\Nishanth\\Downloads\\download\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [71117B] 
+I0426 12:26:39.205827    3540 load.go:115] Finished reloading
+I0426 12:26:39.206919    3540 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0426 12:26:39.208432    3540 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0426 12:26:46.601296    3540 control.go:73] [/emulator/download dde3] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
